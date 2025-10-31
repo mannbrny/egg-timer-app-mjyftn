@@ -2,14 +2,30 @@
 import { StyleSheet, ViewStyle, TextStyle } from 'react-native';
 
 export const colors = {
-  background: '#F8F8FF',
-  text: '#2E2E2E',
-  textSecondary: '#778899',
-  primary: '#FFD700',
-  secondary: '#BDB76B',
-  accent: '#A9A9A9',
-  card: '#FFFFFF',
-  highlight: '#FFFACD',
+  // Modern gradient-inspired color palette
+  background: '#0F172A', // Deep navy blue
+  backgroundLight: '#1E293B', // Lighter navy
+  text: '#F8FAFC', // Off-white
+  textSecondary: '#94A3B8', // Muted blue-gray
+  primary: '#F59E0B', // Warm amber
+  primaryLight: '#FCD34D', // Light amber
+  primaryDark: '#D97706', // Dark amber
+  secondary: '#8B5CF6', // Purple
+  secondaryLight: '#A78BFA', // Light purple
+  accent: '#334155', // Slate
+  accentLight: '#475569', // Light slate
+  card: '#1E293B', // Card background
+  cardLight: '#334155', // Lighter card
+  highlight: '#FEF3C7', // Light yellow
+  success: '#10B981', // Green
+  danger: '#EF4444', // Red
+  warning: '#F59E0B', // Amber
+  
+  // Gradient colors
+  gradientStart: '#F59E0B',
+  gradientEnd: '#D97706',
+  gradientPurpleStart: '#8B5CF6',
+  gradientPurpleEnd: '#6D28D9',
 };
 
 export const buttonStyles = StyleSheet.create({
